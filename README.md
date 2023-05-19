@@ -1,12 +1,9 @@
 # Forecasting-taxi-orders
 
-Компания собрала исторические данные о заказах такси в аэропортах. Чтобы привлекать больше водителей в период пиковой нагрузки, нужно спрогнозировать количество заказов такси на следующий час. Постройте модель для такого предсказания.
+The company has collected historical data on taxi orders at airports. To attract more drivers during peak demand periods, it is necessary to forecast the number of taxi orders for the next hour.
 
-Значение метрики RMSE на тестовой выборке должно быть не больше 48.
+The RMSE (Root Mean Square Error) value on the test dataset should not exceed 48.
 
-Вам нужно:
+We need to:
 
-Загрузить данные и выполнить их ресемплирование по одному часу.
-Проанализировать данные.
-Обучить разные модели с различными гиперпараметрами. Сделать тестовую выборку размером 10% от исходных данных.
-Проверить данные на тестовой выборке и сделать выводы.
+Load the data and resample it to hourly intervals. Analyze the data. Train different models with various hyperparameters. Create a test dataset comprising 10% of the original data. Evaluate the data on the test dataset.
